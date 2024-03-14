@@ -1,2 +1,3 @@
 # AWS-Bitbucket-Sentinel
 Automated Monitoring and Recovery Mechanism for Cloud Hosted Webservices
+I have created a project, where I have hosted the application Bitbucket using Amazon Web Services and then have created a jenkins job that runs a python script every 15 minutes. The script checks whether the Bitbucket application is still running on the Server, and if it does not run, then it will send automated emails to a bunch of email-ID which are present in the earlier python script. Also ther application various other parameters like webpage of hosted bitbucket for better availabilty, the 7999 port which is used for Git operations in Bitbucket.
