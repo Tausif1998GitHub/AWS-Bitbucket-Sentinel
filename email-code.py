@@ -13,7 +13,7 @@ def check_server_status(host, port):
 
 def send_notification_email(recipient_emails):
     sender_email = "tausifrahman1998@yahoo.inv"  # Replace with your Yahoo email
-    sender_password = "tyjsiebjzrryksoz"  # Replace with your Yahoo App Generated Password
+    sender_password = "fhdgjfgjfgjfj"  # Replace with your Yahoo App Generated Password
 
     message = MIMEText("Bitbucket server is not responding. Please investigate.")
     message["Subject"] = "Bitbucket Server Down"
